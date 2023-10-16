@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac5eeb9f-7389-45a5-b517-d54c4e4bc23d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customising_and_Integrating_Applications_Model_A.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Practise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Practise.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile_apps_development_model_A.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/src/main/java/ru/neotoria/gempl/microservices/material_block_service/api/MaterialBlockApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/src/main/java/ru/neotoria/gempl/microservices/material_block_service/api/router/MaterialBlockServiceRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/src/main/java/ru/neotoria/gempl/microservices/material_block_service/payload/request/CreateMaterialBlockRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/src/main/java/ru/neotoria/gempl/microservices/material_block_service/payload/request/filter/MaterialBlockFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/src/main/java/ru/neotoria/gempl/microservices/material_block_service/payload/response/MaterialBlockMultipleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-api/src/main/java/ru/neotoria/gempl/microservices/material_block_service/payload/response/MaterialBlockResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/ApplicationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/core/config/InstanceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/core/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/core/interceptor/RequestInstanceInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/core/interceptor/ResponseInstanceInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/domain/mapper/MaterialBlockMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/domain/persistence/entity/MaterialBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/domain/persistence/repository/MaterialBlockRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/domain/persistence/spec/MaterialBlockSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/domain/service/MaterialBlockService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_block_service/web/MaterialBlockController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/material-block-service-impl/src/main/resources/db/migration/V1__2023-10.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-block-service-main/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/api/MaterialStudyPlanApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/api/router/MaterialStudyPlanServiceRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/constant/EMaterialStudyPlanSourceEntityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/constant/EMaterialStudyPlanStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/request/CreateMaterialStudyPlanRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/request/UpdateMaterialStudyPlanStatusRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/request/filter/MaterialStudyPlanFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/response/MaterialStudyPlanMultipleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-api/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/payload/response/MaterialStudyPlanResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/ApplicationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/core/config/InstanceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/core/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/core/interceptor/RequestInstanceInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/core/interceptor/ResponseInstanceInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/domain/mapper/MaterialStudyPlanMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/domain/persistence/entity/MaterialStudyPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/domain/persistence/repository/MaterialStudyPlanRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/domain/persistence/spec/MaterialStudyPlanSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/domain/service/MaterialStudyPlanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/java/ru/neotoria/gempl/microservices/material_study_plan_service/web/MaterialStudyPlanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/material-study-plan-service-impl/src/main/resources/db/migration/V1__2023-10.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-context/material-study-plan-service-production/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/controller/advice/UserControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/CreateEntryAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/CreateEntryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/DeleteEntryAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/EntryAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/EntryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/EntryLinkDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/entry/UpdateEntryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/exception/ExceptionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/folder/CreateFolderAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/folder/CreateFolderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/folder/DeleteFolderAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/folder/FolderAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/folder/FolderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/folder/UpdateFolderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/login/LoginRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/login/LoginResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/page/CreatePageAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/page/CreatePageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/page/DeletePageAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/page/PageAccessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/page/PageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/page/UpdatePageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/user/CreateUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/dto/user/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/EntryAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/EntryLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/Folder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/FolderAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/PageAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/enums/LogStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/enums/StatusAccessEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/enums/StatusAccessFolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/enums/StatusAccessPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/enums/StatusEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/exeption/ApplicationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/exeption/ExceptionMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/model/mapper/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/EntryAccessRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/EntryLinkRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/EntryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/FolderAccessRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/FolderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/PageAccessRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/PageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/JwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/JwtIssuer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/JwtToPrincipalConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/security/UserPrincipalAuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/EntryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/FolderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/PageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/impl/EntryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/impl/FolderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/impl/PageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_project/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_project/src/main/java/ru/test/demo_project/config/KafkaConsumerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_project/src/main/java/ru/test/demo_project/config/KafkaProducerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_project/src/main/java/ru/test/demo_project/config/KafkaTopicConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/AuthReg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/BillType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/Bills.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/CreditStory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/PlayStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/TransactionLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/classes/java/main/org/example/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/Administrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/AuthReg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/BillType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/Bills.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/CreditStory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/PlayStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/TransactionLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/TransactionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/BankApplication/src/main/java/org/example/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/Bank_Tinkoff.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Bank$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Cashier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/ChoiceOfAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/ColorPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/CurrencyInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Lamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Paper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/out/production/Bank_Tinkoff/ru/lekner/Technique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Cashier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/ChoiceOfAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/ColorPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/CurrencyInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Lamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Paper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Bank_Tinkoff/src/ru/lekner/Technique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/docker_swarm_unit.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/git_unit.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/orm-beta/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/practic_java.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/practice.java.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/test/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/ubuntu-22.04.1-live-server-arm64 (1).iso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/~WRL2615.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Декларация.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-01-25 в 09.44.38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-06 в 11.50.24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 03.13.20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 03.17.03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 03.30.49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 03.50.21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 04.05.53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 04.08.00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 04.20.11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-08 в 04.30.28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-12 в 10.58.55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-14 в 11.27.31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-15 в 02.35.44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-15 в 03.45.53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-15 в 03.47.13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-15 в 04.22.38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-17 в 13.08.42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-17 в 14.00.33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-17 в 14.40.04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-02-22 в 10.56.08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-03 в 16.05.08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-03 в 16.05.27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-05 в 04.11.11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-05 в 04.11.21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-05 в 05.21.19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-05 в 05.21.22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-05 в 05.21.24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Снимок экрана 2023-03-05 в 05.27.40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/Тестовое_задание_на_позицию_Junior_Java_Developer.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject/.idea/djangoProject2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject2/.idea/djangoProject2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker_swarm_unit.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/6.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/6.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/9.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/9.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git_unit/9.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html_cors_test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jol-cli-0.10-full.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning-block-task-service/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/NotesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/controller/RecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/controller/SpaceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/controller/advice/AdviceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/mapper/RecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/mapper/SpaceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/dto/ApplicationExceptionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/dto/RecordDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/dto/SpaceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/dto/ValidationDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/entity/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/entity/Record.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/entity/Space.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/entity/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/exception/ApplicationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/model/exception/ExceptionMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/repository/RecordRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/repository/SpaceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/repository/impl/RecordSpaceRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/service/RecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/service/SpaceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/service/impl/RecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/service/impl/SpaceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/java/ru/project/notes/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes 2/src/test/java/ru/project/notes/NotesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/notification-email-service-api/src/main/java/ru/neotoria/microservices/notification_email_service/api/NotificationEmailApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/notification-email-service-api/src/main/java/ru/neotoria/microservices/notification_email_service/payload/context/ETemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/notification-email-service-api/src/main/java/ru/neotoria/microservices/notification_email_service/payload/request/PushRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/notification-email-service-impl/src/main/java/ru/neotoria/microservices/notification_email_service/payload/constant/ETemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-email-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/comparison/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/factorial/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/hierarchy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/hierarchy/entity/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/hierarchy/entity/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/hierarchy/entity/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/hierarchy/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/memory/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/overflow/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/processing/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/processing/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/processing/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/stream/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/stream/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/stream/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/classes/java/main/fix/stream/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/comparison/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/factorial/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/hierarchy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/hierarchy/entity/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/hierarchy/entity/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/hierarchy/entity/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/hierarchy/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/memory/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/overflow/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/processing/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/processing/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/processing/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/stream/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/stream/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/stream/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-main 2 — копия/src/main/java/fix/stream/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/libraries/jol_cli_0_10_full.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/comparison/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/factorial/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/hierarchy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/hierarchy/entity/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/hierarchy/entity/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/hierarchy/entity/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/hierarchy/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/memory/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/overflow/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/processing/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/processing/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/processing/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/stream/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/stream/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/stream/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/classes/java/main/fix/stream/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/comparison/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/factorial/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/hierarchy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/hierarchy/entity/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/hierarchy/entity/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/hierarchy/entity/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/hierarchy/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/memory/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/overflow/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/processing/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/processing/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/processing/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/stream/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/stream/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/stream/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/main/java/fix/stream/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/2022-10-14 16.53.40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Chistyj_kod_-_Sozdanie_analiz_i_refaktoring_(2013).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/macos-monterey-stock-blue-dark-mode-layers-5k-6016x6016-5895.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Описание_сервиса_бюджетирование_3P3_Practise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Снимок экрана 2022-10-19 в 08.30.02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Снимок экрана 2022-11-06 в 16.06.10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Снимок экрана 2022-12-10 в 12.31.40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Снимок экрана 2022-12-26 в 07.10.09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qqq/Тестовое_задание_на_позицию_Java_Developer.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 10_ Аннотация @Autowired. Внедрение зависимостей (Dependency Injection). (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 11_ Аннотация @Qualifier. Внедрение зависимостей (Dependency Injection). (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 12_ Аннотации @Scope, @Value, @PostConstruct, @PreDestroy. (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 13_ Конфигурация с помощью Java кода. (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 1_ Введение. Зачем изучать Spring_ (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 4_ Инверсия управления. Inversion of Control (IoC). (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 5_ Внедрение зависимостей. Dependency Injection (DI). Введение. (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 6_ Внедрение зависимостей. Dependency Injection (DI). Часть 2. (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 7_ Bean scope (Область видимости бинов). (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 8_ Жизненный цикл бина (Bean Lifecycle). Init, Destroy и Factory методы. (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring Framework. Урок 9_ Аннотации. Введение. (720p).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/bay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/icons8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/s4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/How_to_wear/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/database/Database$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/database/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/entity/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/service/PersonService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/service/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/tool/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/tool/ElementTypeDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/classes/java/main/org/example/tool/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/database/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/service/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/tool/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/tool/ElementTypeDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/ReflectionInJdbc/src/main/java/org/example/tool/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/java/beta/BetaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/java/beta/dto/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/java/beta/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/java/beta/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/java/beta/mapper/AddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/java/beta/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta/src/test/java/beta/BetaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/src/main/java/beta/BetaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/src/main/java/beta/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/src/main/java/beta/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/beta — копия/src/test/java/beta/BetaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/Demo2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/apache/ApacheHttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/configuration/WebConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/interceptor/UserInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/java/com/example/demo/specification/UserSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/demo2/src/test/java/com/example/demo/Demo2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/FinanceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/controller/FinanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/controller/OperationFinanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/entity/Finance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/entity/OperationFinance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/entity/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/service/FinanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/service/OperationFinanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/service/impl/FinanceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/java/sistem/finance/service/impl/OperationFinanceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/finance/src/test/java/sistem/finance/FinanceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/GinApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/annotation/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/annotation/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/di/BeanManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/di/ComponentScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/example/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/example/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/example/SimpleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/classes/java/main/ru/fadesml/gin/example/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/GinApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/annotation/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/annotation/Inject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/di/BeanManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/di/ComponentScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/example/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/example/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/example/SimpleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/gin/src/main/java/ru/fadesml/gin/example/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/service/impl/UserServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/tools/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/tools/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/tools/ElementTypeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/classes/java/main/org/example/tools/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/tools/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/tools/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/tools/ElementTypeData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/hibernate-beta/src/main/java/org/example/tools/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/PersonalAssistantApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/controller/BankAccountsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/controller/FinanceOperationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/dto/BankAccountCurrencyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/entity/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/entity/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/entity/FinanceOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/repository/BankAccountsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/repository/FinanceOperationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/service/BankAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/service/FinanceOperationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/service/impl/BankAccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/java/assistant/service/impl/FinanceOperationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sss/personal-assistant/src/test/java/assistant/PersonalAssistantApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/.idea/compose-swarm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/portainer-agent-stack.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swarm/stack.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/TestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/controller/advice/AdviceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/dto/ExceptionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/dto/ValidationDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/exception/ApplicationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/exception/ExceptionMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/java/com/example/test/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/test/java/com/example/test/TestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test 4/src/test/java/com/example/test/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-project/test-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /src/main/java/ru/java/transportation/LearningApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /src/main/java/ru/java/transportation/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /src/main/java/ru/java/transportation/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transportation-order /src/test/java/project/learning/LearningApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/org/example/FifteenPuzzleApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_project/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_project/src/component/PostForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_project/src/component/PostList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Декларация студента.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Декларация.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Декларация1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Снимок экрана 2023-03-21 в 04.51.45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Снимок экрана 2023-03-22 в 15.29.55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Снимок экрана 2023-03-22 в 16.02.16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Снимок экрана 2023-03-23 в 16.15.43.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2WqT28Skpqswj37df6HtbU5bdw8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac5eeb9f-7389-45a5-b517-d54c4e4bc23d" name="Changes" comment="" />
+      <created>1697458901482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697458901482</updated>
+      <workItem from="1697458902668" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
